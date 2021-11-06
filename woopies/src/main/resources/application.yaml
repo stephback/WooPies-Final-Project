@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: woopies
+    username: woopies
+    url:  jdbc:mysql://localhost:3306/woopies
+
+logging:
+  level:
+    root: warn
+    '[com.woopiesfinalproject]': debug
